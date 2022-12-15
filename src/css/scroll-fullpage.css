@@ -1,0 +1,34 @@
+.container {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.container .page1,
+.container .page2,
+.container .page3,
+.container .page4,
+.container .page5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  scroll-snap-align: start;
+}
+.container .page1 {
+  background: red;
+}
+.container .page2 {
+  background: yellow;
+}
+.container .page3 {
+  background: green;
+}
+.container .page4 {
+  background: blue;
+}
+.container .page5 {
+  background: pink;
+}/*# sourceMappingURL=scroll-fullpage.css.map */
